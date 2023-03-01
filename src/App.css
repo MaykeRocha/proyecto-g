@@ -1,0 +1,61 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+.cookieConteiner {
+  background-image: url('/galletaenblanco.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phrasesStyle {
+  width: 50%;
+
+}
+
+.authorStyle {
+  position: absolute;
+  top: 70%;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.527);
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .cookieConteiner{
+    width: 100%;
+  }
+  .galletaStyle{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+
